@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-image: url(back.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+#container{
+	height: 85vh;
+	width: 29%;
+	background-color:transparent;
+	border-radius: 15px;	
+	border: 1px solid black;
+	margin-left: 35%;
+	margin-top: 3%;
+	box-shadow: 4px 4px 8px black;
+}
+#container h1{
+	text-align: center;
+	margin-top: 5%;
+}
+.data{
+	margin-top: 9%;
+	margin-left: 2%;
+}
+.data form{
+	margin-left: 2%;
+}
+.data form label{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bol;
+	letter-spacing: 1px;
+	padding-top: 2%;
+
+
+}
+.data form input{
+	margin-top: 2%;
+	height: 6vh;
+	width: 80%;
+	border: none;
+	border-bottom: 2px solid black;
+	background-color: transparent;
+	font-size: 16px;
+	padding-left: 1%;
+}
+.data form p {
+	margin-top: 7%;
+	text-align: right;
+	padding-right: 5%;
+}
+.data form p a{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+.btn {
+	margin-top: 8%;	
+	margin-left: 5%;
+}
+.btn input{
+	height: 6vh;
+	width: 90%;
+	border-radius: 12px;
+	font-size: 15px;
+	font-weight: bold;
+	border:0.2px solid black;
+	background-color: transparent;
+	padding: 5px 5px;
+	transition: 0.4s ease;
+}
+.btn input:hover{
+	background-color:#1565C0;
+	cursor: pointer;
+}
+.he{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 15%;
+	font-weight: bold;
+}
+.ico{
+	text-align: center;
+	margin-top: 7%;
+}
+.ico i{
+	font-size: 30px;
+	padding-right: 3%;
+	transition: 0.2s ease;
+}
+.ico i:hover{
+	color: #f9004d;
+}
